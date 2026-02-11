@@ -1,4 +1,4 @@
-=== Woo Store Vacation ===
+=== Store Vacation for WooCommerce ===
 Contributors: mahdiyazdani, mypreview, gookaani
 Tags: vacation,holiday,calendar,close shop,catalog mode,disable cart,woocommerce
 Donate link: https://woocommerce.com/products/store-vacation
