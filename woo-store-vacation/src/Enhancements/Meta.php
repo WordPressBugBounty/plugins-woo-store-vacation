@@ -88,7 +88,7 @@ class Meta {
 
 		$plugin_links   = array();
 		$plugin_links[] = sprintf( /* translators: 1: Open anchor tag, 2: Close anchor tag. */
-			esc_html_x( '%1$sGet PRO%2$s', 'plugin link', 'woo-store-vacation' ),
+			esc_html_x( '%1$sUpgrade to Pro%2$s', 'plugin link', 'woo-store-vacation' ),
 			sprintf(
 				'<a href="%s" target="_blank" rel="noopener noreferrer nofollow" style="color:green;font-weight:bold;">&#127796; ',
 				esc_url( Helper\Links::pro_uri() )

@@ -3,7 +3,7 @@
         'name' => 'mypreview/woo-store-vacation',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '9709f40cff42380583289412bc0e12bed1c13007',
+        'reference' => '0ba6032e0b6b200e05521dffdd46790bc327ad14',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'mypreview/woo-store-vacation' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '9709f40cff42380583289412bc0e12bed1c13007',
+            'reference' => '0ba6032e0b6b200e05521dffdd46790bc327ad14',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

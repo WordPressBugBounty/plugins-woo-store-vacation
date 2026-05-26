@@ -18,13 +18,13 @@
  *
  * @package woo-store-vacation
  *
- * @copyright © 2015 - 2024 MyPreview. All Rights Reserved.
+ * @copyright © 2015 - 2026 MyPreview. All Rights Reserved.
  *
  * @wordpress-plugin
  * Plugin Name: Woo Store Vacation
  * Plugin URI: https://mypreview.one/woo-store-vacation
- * Description: Pause your store during vacations by scheduling specific dates and display a customizable notice to visitors.
- * Version: 1.9.6
+ * Description: Schedule WooCommerce vacation mode, pause checkout, and display a customizable store notice while you are away.
+ * Version: 1.9.7
  * Author: MyPreview
  * Author URI: https://mypreview.one/woo-store-vacation
  * Requires at least: 5.9
@@ -35,7 +35,7 @@
  * Domain Path: /languages
  *
  * WC requires at least: 5.5
- * WC tested up to: 9.9
+ * WC tested up to: 10.7
  */
 
 use Woo_Store_Vacation\Plugin;
