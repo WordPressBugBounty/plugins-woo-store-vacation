@@ -1,6 +1,6 @@
 <?php
 /**
- * The `Woo Store Vacation` bootstrap file.
+ * The `Store Vacation Lite for WooCommerce` bootstrap file.
  *
  * This file is read by WordPress to generate the plugin information in the plugin
  * admin area. This file also includes all of the dependencies used by the plugin,
@@ -21,14 +21,15 @@
  * @copyright © 2015 - 2026 MyPreview. All Rights Reserved.
  *
  * @wordpress-plugin
- * Plugin Name: Woo Store Vacation
+ * Plugin Name: Store Vacation Lite for WooCommerce
  * Plugin URI: https://mypreview.one/woo-store-vacation
  * Description: Schedule WooCommerce vacation mode, pause checkout, and display a customizable store notice while you are away.
- * Version: 1.9.7
+ * Version: 1.9.8
  * Author: MyPreview
  * Author URI: https://mypreview.one/woo-store-vacation
- * Requires at least: 5.9
+ * Requires at least: 6.5
  * Requires PHP: 7.4
+ * Requires Plugins: woocommerce
  * License: GPL-3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain: woo-store-vacation
@@ -39,7 +40,6 @@
  */
 
 use Woo_Store_Vacation\Plugin;
-use WC_Install_Notice\Nag;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	header( 'Status: 403 Forbidden' );
@@ -88,17 +88,8 @@ function woo_store_vacation_load() {
 	woo_store_vacation();
 }
 
-if ( ! (
-		( new Nag() )
-		->set_file_path( __FILE__ )
-		->set_plugin_name( 'Woo Store Vacation' )
-		->does_it_requires_nag()
-	)
-) {
+add_action( 'woocommerce_loaded', 'woo_store_vacation_load', 20 );
 
-	add_action( 'woocommerce_loaded', 'woo_store_vacation_load', 20 );
-
-	// Register activation and deactivation hooks.
-	register_activation_hook( __FILE__, array( 'Woo_Store_Vacation\\Installer', 'activate' ) );
-	register_deactivation_hook( __FILE__, array( 'Woo_Store_Vacation\\Installer', 'deactivate' ) );
-}
+// Register activation and deactivation hooks.
+register_activation_hook( __FILE__, array( 'Woo_Store_Vacation\\Installer', 'activate' ) );
+register_deactivation_hook( __FILE__, array( 'Woo_Store_Vacation\\Installer', 'deactivate' ) );

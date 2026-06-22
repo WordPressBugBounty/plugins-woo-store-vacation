@@ -21,7 +21,7 @@ defined( 'WC_VERSION' ) || exit;
 			esc_html_x( 'Thanks for installing %1$s plugin! To get started, visit the %2$sdocumentation%3$s or %4$splugin’s settings page%5$s.', 'admin notice', 'woo-store-vacation' ),
 			sprintf(
 				'<strong>%s</strong>',
-				esc_html_x( 'Woo Store Vacation', 'plugin name', 'woo-store-vacation' )
+				esc_html_x( 'Store Vacation Lite for WooCommerce', 'plugin name', 'woo-store-vacation' )
 			),
 			sprintf(
 				'<a href="%s" target="_blank" rel="noopener noreferrer nofollow">',

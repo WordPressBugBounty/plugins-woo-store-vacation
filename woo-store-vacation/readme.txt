@@ -1,11 +1,11 @@
-=== Woo Store Vacation ===
+=== Store Vacation Lite for WooCommerce ===
 Contributors: mypreview
 Tags: woocommerce, vacation, holiday, close shop, catalog mode
 Donate link: https://woocommerce.com/products/store-vacation
-Requires at least: 5.9
+Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.9.7
+Stable tag: 1.9.8
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ Take a break from selling without taking your WooCommerce store offline. Schedul
 
 == Description ==
 
-Woo Store Vacation helps WooCommerce store owners temporarily pause new orders during vacations, holidays, maintenance periods, fulfilment delays, or short business breaks.
+Store Vacation Lite for WooCommerce, formerly known as Woo Store Vacation, helps WooCommerce store owners temporarily pause new orders during vacations, holidays, maintenance periods, fulfilment delays, or short business breaks.
 
 Instead of taking your website offline, the plugin keeps your shop visible while giving you control over whether customers can place new orders. You can schedule a vacation period, disable purchases, display a clear notice, and automatically reopen your store when the vacation period ends.
 
@@ -34,7 +34,7 @@ This helps maintain your storefront and product visibility while preventing new 
 
 = Schedule your vacation dates =
 
-Set a start date and end date for your vacation period based on your site’s local timezone. Woo Store Vacation automatically applies the vacation settings during the scheduled period and restores normal store behavior when the vacation ends.
+Set a start date and end date for your vacation period based on your site’s local timezone. Store Vacation Lite for WooCommerce automatically applies the vacation settings during the scheduled period and restores normal store behavior when the vacation ends.
 
 You can also deactivate vacation mode manually at any time if you return earlier than planned.
 
@@ -56,7 +56,7 @@ The notice appears on WooCommerce shop and product pages. You can also place it 
 
 Sometimes you may want to pause most of your store while keeping selected products available.
 
-Woo Store Vacation includes condition settings that let you keep specific items purchasable while vacation mode is active. You can exclude selected:
+Store Vacation Lite for WooCommerce includes condition settings that let you keep specific items purchasable while vacation mode is active. You can exclude selected:
 
 * Products.
 * Product categories.
@@ -68,7 +68,7 @@ This gives you more flexibility than fully closing the entire store.
 
 = Built for WooCommerce store owners =
 
-Woo Store Vacation is designed for real store management situations, including personal vacations, holidays, fulfilment delays, temporary stock reviews, maintenance windows, or short business breaks.
+Store Vacation Lite for WooCommerce is designed for real store management situations, including personal vacations, holidays, fulfilment delays, temporary stock reviews, maintenance windows, or short business breaks.
 
 The plugin is also translation-ready and includes support for multilingual stores using WPML and Polylang.
 
@@ -123,7 +123,7 @@ If your store needs recurring closures, multiple schedules, advanced notices, op
 
 Automatic installation is the easiest option — WordPress will handle the file transfer, and you won’t need to leave your web browser.
 
-To install the plugin automatically, log in to your WordPress dashboard, navigate to Plugins » Add New, and search for “Woo Store Vacation”.
+To install the plugin automatically, log in to your WordPress dashboard, navigate to Plugins » Add New, and search for “Store Vacation Lite for WooCommerce”.
 
 Once you find the plugin, click “Install Now”, then activate it.
 
@@ -139,15 +139,15 @@ Automatic updates should work smoothly, but it is always recommended to back up 
 
 == Frequently Asked Questions ==
 
-= Why should I use Woo Store Vacation? =
+= Why should I use Store Vacation Lite for WooCommerce? =
 
-Woo Store Vacation is useful when you need to temporarily pause new WooCommerce orders without taking your store offline.
+Store Vacation Lite for WooCommerce is useful when you need to temporarily pause new WooCommerce orders without taking your store offline.
 
 You can use it for vacations, holidays, illness, family emergencies, fulfilment delays, stock reviews, maintenance windows, or any period when you are unable to process new orders.
 
 = Will the plugin take my store offline? =
 
-No. Woo Store Vacation keeps your website and products visible. If you enable the “Disable Purchase” option, customers can browse your store but cannot complete checkout or place new orders during vacation mode.
+No. Store Vacation Lite for WooCommerce keeps your website and products visible. If you enable the “Disable Purchase” option, customers can browse your store but cannot complete checkout or place new orders during vacation mode.
 
 = Will using the plugin hurt my store’s SEO ranking? =
 
@@ -208,13 +208,13 @@ Yes. Shop managers can access and manage the plugin settings, making it easier f
 
 = Is the plugin compatible with multilingual websites? =
 
-Yes. Woo Store Vacation is translation-ready and includes configuration support for WPML and Polylang.
+Yes. Store Vacation Lite for WooCommerce is translation-ready and includes configuration support for WPML and Polylang.
 
-= Is Woo Store Vacation compatible with HPOS? =
+= Is Store Vacation Lite for WooCommerce compatible with HPOS? =
 
-Yes. Woo Store Vacation supports WooCommerce High-Performance Order Storage.
+Yes. Store Vacation Lite for WooCommerce supports WooCommerce High-Performance Order Storage.
 
-= Does Woo Store Vacation have a Pro version? =
+= Does Store Vacation Lite for WooCommerce have a Pro version? =
 
 Yes. Store Vacation Pro is available on WooCommerce.com and adds advanced scheduling, recurring weekday closures, opening hours, advanced notices, smart conditions, storefront behavior controls, admin reminder emails, vacation order tracking, import/export tools, and REST API support.
 
@@ -222,25 +222,19 @@ You can learn more here: [Store Vacation Pro](https://woocommerce.com/products/s
 
 = How can I get help with the plugin? =
 
-The easiest way to receive support is to visit the [Community Forums page](https://wordpress.org/support/plugin/woo-store-vacation "Woo Store Vacation Support Forum") and create a new topic.
+The easiest way to receive support is to visit the [Community Forums page](https://wordpress.org/support/plugin/woo-store-vacation "Store Vacation Lite for WooCommerce Support Forum") and create a new topic.
 
 Make sure to check the “Notify me of follow-up replies via email” option so you receive updates when someone replies.
 
 = Can I contribute to translating the plugin into a new language? =
 
-Yes. Woo Store Vacation is translation-ready and localized using the GNU framework. You can help translate it through the official WordPress translation platform.
+Yes. Store Vacation Lite for WooCommerce is translation-ready and localized using the GNU framework. You can help translate it through the official WordPress translation platform.
 
-[Translate Woo Store Vacation](https://translate.wordpress.org/projects/wp-plugins/woo-store-vacation "WordPress translation website")
-
-= How can I contribute to this plugin? =
-
-You can contribute by reporting bugs, testing changes, suggesting improvements, or submitting feedback.
-
-Visit the [GitHub development repository](https://github.com/mypreview/woo-store-vacation "GitHub development repository") for more information.
+[Translate Store Vacation Lite for WooCommerce](https://translate.wordpress.org/projects/wp-plugins/woo-store-vacation "WordPress translation website")
 
 = What is your opinion about the concept behind this plugin? =
 
-If you enjoy using Woo Store Vacation, a [5-star rating](https://wordpress.org/support/plugin/woo-store-vacation/reviews/ "Rate Woo Store Vacation 5 stars") would be greatly appreciated. Reviews help support continued plugin development and improvements.
+If you enjoy using Store Vacation Lite for WooCommerce, a [5-star rating](https://wordpress.org/support/plugin/woo-store-vacation/reviews/ "Rate Store Vacation Lite for WooCommerce 5 stars") would be greatly appreciated. Reviews help support continued plugin development and improvements.
 
 == Screenshots ==
 
@@ -255,6 +249,12 @@ If you enjoy using Woo Store Vacation, a [5-star rating](https://wordpress.org/s
 9. Adding the Store Vacation Notice Elementor widget to the page
 
 == Changelog ==
+= 1.9.8 =
+* Tweak: Renamed the plugin to Store Vacation Lite for WooCommerce.
+* Tweak: Declared WooCommerce as a required plugin dependency.
+* Tweak: Improved the release package contents.
+* Compatibility: Raised the minimum supported WordPress version to 6.5.
+
 = 1.9.7 =
 * Compatibility: Tested with WordPress 7.0.
 * Compatibility: Tested with WooCommerce 10.7.

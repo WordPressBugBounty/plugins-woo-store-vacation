@@ -9,9 +9,6 @@
 
 namespace Woo_Store_Vacation\Enhancements;
 
-use WP_Footer_Rate;
-use Woo_Store_Vacation\Helper;
-
 /**
  * Class Rate.
  */
@@ -46,7 +43,6 @@ class Rate {
 	public function setup() {
 
 		add_action( 'woo_store_vacation_admin_notices', array( $this, 'admin_notice' ) );
-		add_action( 'woocommerce_settings_start', array( $this, 'wp_footer' ) );
 	}
 
 	/**
@@ -91,23 +87,6 @@ class Rate {
 			array(
 				'usage_timestamp' => human_time_diff( $usage_timestamp ),
 			)
-		);
-	}
-
-	/**
-	 * Ask for a review in the footer of the settings page.
-	 *
-	 * @since 1.8.0
-	 *
-	 * @return void
-	 */
-	public function wp_footer() {
-
-		new WP_Footer_Rate\Rate(
-			woo_store_vacation()->service( 'file' )->plugin_basename(),
-			woo_store_vacation()->get_slug(),
-			_x( 'Woo Store Vacation', 'plugin name', 'woo-store-vacation' ),
-			Helper\Settings::is_page()
 		);
 	}
 }

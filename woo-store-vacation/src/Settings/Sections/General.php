@@ -32,7 +32,7 @@ class General extends Section {
 			'section_title'        => array(
 				'id'   => 'woo-store-vacation-general',
 				'type' => 'title',
-				'name' => _x( 'Woo Store Vacation', 'settings section name', 'woo-store-vacation' ),
+				'name' => _x( 'Store Vacation Lite for WooCommerce', 'settings section name', 'woo-store-vacation' ),
 				'desc' => _x( 'Close your store temporarily by scheduling your vacation time. While your shop will remain online and accessible to visitors, new order operations will pause, and your checkout will be disabled.', 'settings field description', 'woo-store-vacation' ),
 			),
 			'vacation_mode'        => array(

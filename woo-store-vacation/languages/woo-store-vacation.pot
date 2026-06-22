@@ -1,21 +1,21 @@
-# Copyright (C) 2024 MyPreview
+# Copyright (C) 2026 MyPreview
 # This file is distributed under the GPL-3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Woo Store Vacation 1.9.5\n"
+"Project-Id-Version: Store Vacation Lite for WooCommerce 1.9.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-store-vacation\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-07-27T12:09:22+00:00\n"
+"POT-Creation-Date: 2026-06-22T12:08:52+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: woo-store-vacation\n"
 
 #. Plugin Name of the plugin
-msgid "Woo Store Vacation"
+msgid "Store Vacation Lite for WooCommerce"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -24,7 +24,7 @@ msgid "https://mypreview.one/woo-store-vacation"
 msgstr ""
 
 #. Description of the plugin
-msgid "Pause your store during vacations by scheduling specific dates and display a customizable notice to visitors."
+msgid "Schedule WooCommerce vacation mode, pause checkout, and display a customizable store notice while you are away."
 msgstr ""
 
 #. Author of the plugin
@@ -32,11 +32,10 @@ msgid "MyPreview"
 msgstr ""
 
 #: src/Admin/Menu.php:45
-#: src/Enhancements/Rate.php:109
 #: templates/notices/onboarding.php:24
 #: templates/notices/rate.php:23
 msgctxt "plugin name"
-msgid "Woo Store Vacation"
+msgid "Store Vacation Lite for WooCommerce"
 msgstr ""
 
 #: src/Admin/Menu.php:46
@@ -59,7 +58,7 @@ msgstr ""
 #. translators: 1: Open anchor tag, 2: Close anchor tag.
 #: src/Enhancements/Meta.php:91
 msgctxt "plugin link"
-msgid "%1$sGet PRO%2$s"
+msgid "%1$sUpgrade to Pro%2$s"
 msgstr ""
 
 #. translators: 1: Open anchor tag, 2: Close anchor tag.
@@ -141,7 +140,7 @@ msgstr ""
 
 #: src/Settings/Sections/General.php:35
 msgctxt "settings section name"
-msgid "Woo Store Vacation"
+msgid "Store Vacation Lite for WooCommerce"
 msgstr ""
 
 #: src/Settings/Sections/General.php:36
@@ -362,42 +361,47 @@ msgstr ""
 
 #: templates/sidebar/upsell.php:17
 msgctxt "upsell"
-msgid "Get Store Vacation Pro"
+msgid "Store Vacation Pro"
 msgstr ""
 
-#: templates/sidebar/upsell.php:21
+#: templates/sidebar/upsell.php:20
 msgctxt "upsell"
-msgid "Automate your schedules"
+msgid "Need more control over store closures?"
 msgstr ""
 
 #: templates/sidebar/upsell.php:24
 msgctxt "upsell"
-msgid "Repeat weekday closings"
+msgid "Schedule multiple vacations"
 msgstr ""
 
 #: templates/sidebar/upsell.php:27
 msgctxt "upsell"
-msgid "Define smart conditions"
+msgid "Repeat weekday closings"
 msgstr ""
 
 #: templates/sidebar/upsell.php:30
 msgctxt "upsell"
-msgid "Unlimited store notices"
+msgid "Define smart conditions"
 msgstr ""
 
 #: templates/sidebar/upsell.php:33
 msgctxt "upsell"
-msgid "24/7 priority support"
+msgid "Show opening hours"
 msgstr ""
 
-#: templates/sidebar/upsell.php:38
+#: templates/sidebar/upsell.php:36
 msgctxt "upsell"
-msgid "Go PRO for More Options"
+msgid "Create advanced notices"
 msgstr ""
 
-#: templates/sidebar/upsell.php:44
+#: templates/sidebar/upsell.php:41
 msgctxt "upsell"
-msgid "Read reviews from real users"
+msgid "Unlock Pro Features"
+msgstr ""
+
+#: templates/sidebar/upsell.php:47
+msgctxt "upsell"
+msgid "Trusted by store owners"
 msgstr ""
 
 #: assets/js/admin.js:130

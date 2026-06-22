@@ -20,7 +20,7 @@ defined( 'WC_VERSION' ) || exit;
 				/* translators: 1: Activation duration, 2: Plugin name */
 				esc_html_x( '%1$s have passed since you started using %2$s.', 'admin notice', 'woo-store-vacation' ),
 				esc_html( $args['usage_timestamp'] ),
-				esc_html_x( 'Woo Store Vacation', 'plugin name', 'woo-store-vacation' )
+				esc_html_x( 'Store Vacation Lite for WooCommerce', 'plugin name', 'woo-store-vacation' )
 			);
 			?>
 		</strong>

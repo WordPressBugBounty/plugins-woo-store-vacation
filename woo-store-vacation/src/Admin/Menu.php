@@ -42,7 +42,7 @@ class Menu {
 		// Add the submenu page.
 		add_submenu_page(
 			'woocommerce',
-			esc_html_x( 'Woo Store Vacation', 'plugin name', 'woo-store-vacation' ),
+			esc_html_x( 'Store Vacation Lite for WooCommerce', 'plugin name', 'woo-store-vacation' ),
 			esc_html_x( 'Store Vacation', 'menu title', 'woo-store-vacation' ),
 			'manage_woocommerce',
 			woo_store_vacation()->get_slug(),
