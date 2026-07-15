@@ -22,11 +22,11 @@
  *
  * @wordpress-plugin
  * Plugin Name: Store Vacation Lite for WooCommerce
- * Plugin URI: https://mypreview.one/woo-store-vacation
+ * Plugin URI: https://mypreview.one/store-vacation-for-woocommerce/
  * Description: Schedule WooCommerce vacation mode, pause checkout, and display a customizable store notice while you are away.
- * Version: 1.9.8
+ * Version: 1.9.8.1
  * Author: MyPreview
- * Author URI: https://mypreview.one/woo-store-vacation
+ * Author URI: https://mypreview.one
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Requires Plugins: woocommerce
@@ -36,7 +36,7 @@
  * Domain Path: /languages
  *
  * WC requires at least: 5.5
- * WC tested up to: 10.7
+ * WC tested up to: 10.9
  */
 
 use Woo_Store_Vacation\Plugin;

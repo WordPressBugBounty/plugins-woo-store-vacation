@@ -27,7 +27,7 @@ abstract class Links {
 	public static function docs_uri( $path = '', $args = array() ) {
 
 		return path_join(
-			'https://mypreview.github.io/woo-store-vacation',
+			'https://mypreview.one/docs/woo-store-vacation/',
 			add_query_arg( $args, $path )
 		);
 	}
@@ -45,7 +45,7 @@ abstract class Links {
 	public static function pro_uri( $path = '', $args = array() ) {
 
 		return path_join(
-			'https://woocommerce.com/products/store-vacation/',
+			'https://mypreview.one/store-vacation-for-woocommerce/',
 			add_query_arg( $args, $path )
 		);
 	}

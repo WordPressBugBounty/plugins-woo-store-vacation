@@ -1,21 +1,23 @@
 === Store Vacation Lite for WooCommerce ===
 Contributors: mypreview
-Tags: woocommerce, vacation, holiday, close shop, catalog mode
-Donate link: https://woocommerce.com/products/store-vacation
+Tags: woocommerce, vacation, holiday, store closed, catalog mode
+Donate link: https://mypreview.one/store-vacation-for-woocommerce/
 Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.9.8
+Stable tag: 1.9.8.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Take a break from selling without taking your WooCommerce store offline. Schedule vacation mode, pause checkout, and keep customers informed with a customizable store notice.
+Pause new WooCommerce orders during vacations. Schedule closure dates, disable checkout, and show a custom notice — without taking your store offline.
 
 == Description ==
 
-Store Vacation Lite for WooCommerce, formerly known as Woo Store Vacation, helps WooCommerce store owners temporarily pause new orders during vacations, holidays, maintenance periods, fulfilment delays, or short business breaks.
+*Formerly known as Woo Store Vacation — trusted by WooCommerce stores since 2017.*
 
-Instead of taking your website offline, the plugin keeps your shop visible while giving you control over whether customers can place new orders. You can schedule a vacation period, disable purchases, display a clear notice, and automatically reopen your store when the vacation period ends.
+Going on vacation, closing for a holiday, or pausing for a fulfilment break? Store Vacation Lite for WooCommerce lets you temporarily stop taking new orders while keeping your store visible to customers.
+
+Instead of taking your website offline, the plugin keeps your shop browsable and your products indexed while giving you control over whether visitors can place new orders. Schedule a vacation period, disable purchases, display a clear notice, and automatically reopen your store when the vacation ends.
 
 This is useful when you want to:
 
@@ -28,9 +30,9 @@ This is useful when you want to:
 
 = Pause WooCommerce orders while keeping your store visible =
 
-When vacation mode is active, your shop can remain online and accessible to visitors. Customers can still browse your products, but purchases can be paused by disabling the cart, checkout, and add-to-cart buttons.
+When vacation mode is active, your shop remains online and accessible to visitors. Customers can still browse your products, but purchases can be paused by disabling the cart, checkout, and add-to-cart buttons.
 
-This helps maintain your storefront and product visibility while preventing new orders during periods when you are unavailable.
+This preserves your storefront and product visibility — and your SEO ranking — while preventing new orders during periods when you are unavailable.
 
 = Schedule your vacation dates =
 
@@ -64,51 +66,86 @@ Store Vacation Lite for WooCommerce includes condition settings that let you kee
 * Product types.
 * Shipping classes.
 
-This gives you more flexibility than fully closing the entire store.
+This gives you more flexibility than fully closing the entire store — perfect for keeping digital downloads, gift cards, or pre-orders available while pausing physical fulfilment.
 
-= Built for WooCommerce store owners =
+= Built for real store situations =
 
-Store Vacation Lite for WooCommerce is designed for real store management situations, including personal vacations, holidays, fulfilment delays, temporary stock reviews, maintenance windows, or short business breaks.
+Store Vacation Lite for WooCommerce is designed for the closure situations WooCommerce merchants actually run into: personal vacations, holidays, illness, family emergencies, fulfilment delays, stock reviews, maintenance windows, or short business breaks.
 
-The plugin is also translation-ready and includes support for multilingual stores using WPML and Polylang.
+The plugin is translation-ready and includes configuration support for multilingual stores using WPML and Polylang.
 
 = Lite features =
 
 * Schedule a temporary vacation period.
-* Pause purchases during vacation mode.
-* Keep your shop and products visible.
-* Display a vacation notice on WooCommerce pages.
-* Add the notice with a block, shortcode, or Elementor widget.
-* Add a CTA button to your notice.
-* Use start and end date smart tags.
-* Customize notice colors.
-* Keep selected products available.
+* Pause purchases automatically during vacation mode.
+* Keep your shop and products visible while paused.
+* Display a vacation notice on WooCommerce shop and product pages.
+* Add the notice anywhere with a block, shortcode, or Elementor widget.
+* Add a call-to-action button to the notice.
+* Use `{{start_date}}` and `{{end_date}}` smart tags in your message.
+* Customize notice text and background colors.
+* Keep selected products, categories, tags, product types, or shipping classes available.
 * Allow shop managers to manage vacation settings.
 * HPOS compatible.
+* Translation-ready with WPML and Polylang support.
 
 ## Need more control? Upgrade to Store Vacation Pro
 
-Store Vacation Pro adds advanced scheduling, notices, conditions, and storefront behavior controls for stores that need more than one basic vacation period.
+Store Vacation Pro adds advanced scheduling, saved-cart tools, storefront controls, and vacation reporting for stores that need to do more than pause purchases.
 
-[Upgrade to Store Vacation Pro](https://woocommerce.com/products/store-vacation/ "Store Vacation Pro") to unlock more powerful store closure workflows.
+[Upgrade to Store Vacation Pro](https://mypreview.one/store-vacation-for-woocommerce/ "Store Vacation Pro") to unlock the full workflow.
 
-With Store Vacation Pro, you can:
+**With Store Vacation Pro, you can:**
 
-* **Schedule multiple vacations** — Plan unlimited vacation periods in advance and manage upcoming, active, disabled, and running schedules.
-* **Set recurring weekday closures** — Close your shop on specific weekdays and times every week.
-* **Configure opening hours** — Display business hours and automatically close the shop outside your configured hours.
-* **Create advanced vacation notices** — Build reusable notices with rich text, smart tags, templates, CTA buttons, custom styles, and announcement bar display options.
-* **Show vacation content with a block** — Display custom page content only while the store is in vacation mode.
-* **Use smart product availability rules** — Control availability by products, categories, tags, product types, shipping classes, WooCommerce brands, and user roles.
-* **Control storefront behavior** — Keep the default closed-store behavior, replace shop pages with custom content, password-protect shop pages, or allow access through a private link.
-* **Hide store elements while closed** — Hide prices, add-to-cart buttons, mini cart widgets, or mini cart blocks during vacation mode.
-* **Send admin reminder emails** — Get notified before the store enters vacation mode.
-* **Track vacation orders** — Mark and filter orders placed while vacation mode is active.
-* **Force close the store instantly** — Pause purchases immediately without creating a future schedule.
-* **Import and export settings** — Move Store Vacation settings between sites more easily.
-* **Use the REST API** — Access vacation schedule data programmatically.
+**Plan closures for real business rhythms**
 
-If your store needs recurring closures, multiple schedules, advanced notices, opening hours, or more control over what customers see while the shop is closed, [Store Vacation Pro](https://woocommerce.com/products/store-vacation/ "Store Vacation Pro") is the best upgrade path.
+* Schedule **unlimited vacation periods** — plan holidays and seasonal breaks months in advance.
+* Set **recurring weekday closures** — close every Sunday, every Monday morning, or any custom pattern.
+* Configure **opening hours** — publish your business hours and auto-close the shop outside them.
+* View a **calendar** of every upcoming, active, and past closure at a glance.
+
+**Turn closures into conversions, not lost customers**
+
+* **Save Cart for Later** — customers can save their cart before you close, then restore it in one click when you reopen.
+* **Shareable saved cart link** — customers copy, bookmark, or share their cart across devices.
+* **Email the saved cart** — send the restore link straight to the customer’s inbox from the storefront.
+* **Allow cart building while checkout is closed** — shoppers keep adding items during vacation and check out the moment you reopen.
+* **Countdown timer** — show a live counter to your reopening date directly in the notice.
+* **Announcement bar** — display a site-wide vacation banner across every page.
+* **Advance notice before closure** — warn customers days ahead so they can order early.
+
+**Measure what happens while you’re away**
+
+* **Vacation reports dashboard** — see cart interactions, checkouts, revenue, and unique customers during each closure.
+* **Recent activity table** — every add-to-cart, cart update, saved cart, and checkout that happened while paused, with product and customer resolution.
+* **Filters and CSV export** — narrow by date range and vacation period, export the raw event log.
+* **Configurable data retention** — auto-prune old event logs after your chosen number of days, weeks, months, or years.
+* **Track vacation orders** — flag and filter orders placed while vacation mode was active, right from the WooCommerce Orders screen.
+
+**Control exactly what customers see**
+
+* **Replace shop pages with custom content** — serve your own vacation landing page instead of the default product grid.
+* **Password-protect shop access** — gate the store behind a shared password.
+* **Private access links** — send unique URLs that unlock the store for approved customers.
+* **Bypass restrictions for unlocked visitors** — approved shoppers check out normally while the rest of the store is paused.
+* **Hide prices, add-to-cart, and mini cart** — strip commerce UI entirely during vacation, converting the store into a browsable catalog.
+* **Advanced vacation notices** — reusable templates with smart tags, rich text, CTAs, and custom styling.
+* **Vacation Content block** — build custom pages that only appear while the store is in vacation mode.
+
+**Fine-tune product availability**
+
+* Exclude by product, category, tag, product type, shipping class, **WooCommerce brand**, or **user role**.
+* **Copy conditions between schedules** so you don’t rebuild the same exceptions for every closure.
+
+**Ship it with confidence**
+
+* **Admin reminder emails** — get an email before each vacation starts.
+* **Dashboard widget** — see upcoming closures at a glance on your WP admin dashboard.
+* **Force close the store instantly** — pause purchases immediately without setting up a schedule.
+* **Import and export settings** — move Store Vacation configuration between sites.
+* **REST API** — access vacation schedule data programmatically.
+
+If your store needs recurring closures, multiple schedules, opening hours, saved carts, vacation reporting, or more control over what customers see while the shop is closed, [Store Vacation Pro](https://mypreview.one/store-vacation-for-woocommerce/ "Store Vacation Pro") is the best upgrade path.
 
 == Installation ==
 
@@ -116,7 +153,7 @@ If your store needs recurring closures, multiple schedules, advanced notices, op
 
 * PHP version 7.4 or greater.
 * MySQL version 5.6 or greater or MariaDB version 10.0 or greater.
-* WordPress version 5.9 or greater.
+* WordPress version 6.5 or greater.
 * WooCommerce version 5.5 or greater.
 
 = Automatic installation =
@@ -145,6 +182,12 @@ Store Vacation Lite for WooCommerce is useful when you need to temporarily pause
 
 You can use it for vacations, holidays, illness, family emergencies, fulfilment delays, stock reviews, maintenance windows, or any period when you are unable to process new orders.
 
+= I installed "Woo Store Vacation" — is this the same plugin? =
+
+Yes. Woo Store Vacation was renamed to Store Vacation Lite for WooCommerce after nine years under the original name — the underlying plugin, settings, saved schedules, and notice content all carry over automatically. Only the display name has changed.
+
+If you arrived here from a tutorial, YouTube video, blog post, or forum thread that references “Woo Store Vacation,” you’re in the right place. No re-installation, no re-configuration, and no data migration is required.
+
 = Will the plugin take my store offline? =
 
 No. Store Vacation Lite for WooCommerce keeps your website and products visible. If you enable the “Disable Purchase” option, customers can browse your store but cannot complete checkout or place new orders during vacation mode.
@@ -152,6 +195,14 @@ No. Store Vacation Lite for WooCommerce keeps your website and products visible.
 = Will using the plugin hurt my store’s SEO ranking? =
 
 No. The plugin keeps your store visible and does not add no-index meta tags to your shop. Customers and search engines can still access your store pages while vacation mode is active.
+
+= Is the plugin compatible with block themes and the Site Editor? =
+
+Yes. The vacation notice can be added to block-based themes using the Store Vacation Notice block in the Site Editor, template parts, or any page. The notice also appears automatically on WooCommerce shop and product pages regardless of theme.
+
+= Does the plugin affect my site’s speed? =
+
+No. Store Vacation Lite for WooCommerce only loads its logic on the frontend when vacation mode is active, and only enqueues the notice styles on pages where the notice is displayed. There is no measurable performance impact when vacation mode is off.
 
 = Where can I find the plugin settings? =
 
@@ -175,13 +226,19 @@ The “Disable Purchase” option disables eCommerce purchase functionality whil
 
 = Can customers still browse my products? =
 
-Yes. Your products can remain visible while purchases are paused. This allows customers to browse your catalog and return when the store reopens.
+Yes. Your products remain visible while purchases are paused. This allows customers to browse your catalog and return when the store reopens.
+
+= What happens to customers who tried to buy something during my vacation? =
+
+In the free version, purchases are simply paused and the vacation notice is shown. Customers can return after your vacation ends to complete their order manually.
+
+Store Vacation Pro adds saved-cart tools so customers can save their cart during vacation and receive a link to restore it after you reopen — turning would-be lost sales into orders that land as soon as you’re back.
 
 = Can I keep some products available during vacation mode? =
 
 Yes. If “Disable Purchase” is enabled, you can use the Conditions section to keep selected products available for purchase.
 
-You can exclude specific products, categories, tags, product types, and shipping classes from vacation mode so those items remain purchasable while the rest of the store is paused.
+You can exclude specific products, categories, tags, product types, and shipping classes from vacation mode so those items remain purchasable while the rest of the store is paused. This is useful for keeping digital downloads, gift cards, or pre-orders available during closures.
 
 = Where does the vacation notice appear? =
 
@@ -202,6 +259,8 @@ The free version supports:
 
 These smart tags can be used in your vacation notice message to automatically display the scheduled vacation dates.
 
+Store Vacation Pro adds an expanded set of smart tags for reusable notice templates.
+
 = Can shop managers manage vacation settings? =
 
 Yes. Shop managers can access and manage the plugin settings, making it easier for store teams to update vacation dates and notices when needed.
@@ -214,11 +273,19 @@ Yes. Store Vacation Lite for WooCommerce is translation-ready and includes confi
 
 Yes. Store Vacation Lite for WooCommerce supports WooCommerce High-Performance Order Storage.
 
+= What’s the difference between the Lite and Pro versions? =
+
+The Lite version covers a single scheduled vacation with a customizable notice and basic product exceptions — enough for a straightforward one-off closure.
+
+Store Vacation Pro adds recurring schedules, opening hours, saved-cart tools that let customers restore their cart after you reopen, vacation reporting, storefront behavior controls (replacement content, password protection, private links), and integrations like admin reminder emails, import/export, and a REST API.
+
+If you close your shop more than once a year, want to protect abandoned-cart revenue during closures, or need visibility into what happened while you were away, Pro pays for itself quickly.
+
 = Does Store Vacation Lite for WooCommerce have a Pro version? =
 
-Yes. Store Vacation Pro is available on WooCommerce.com and adds advanced scheduling, recurring weekday closures, opening hours, advanced notices, smart conditions, storefront behavior controls, admin reminder emails, vacation order tracking, import/export tools, and REST API support.
+Yes. Store Vacation Pro is available on WooCommerce.com and adds advanced scheduling, recurring weekday closures, opening hours, saved carts, cart building while closed, vacation reporting, storefront behavior controls, admin reminder emails, vacation order tracking, import/export tools, and REST API support.
 
-You can learn more here: [Store Vacation Pro](https://woocommerce.com/products/store-vacation/ "Store Vacation Pro")
+You can learn more here: [Store Vacation Pro](https://mypreview.one/store-vacation-for-woocommerce/ "Store Vacation Pro")
 
 = How can I get help with the plugin? =
 
@@ -249,6 +316,10 @@ If you enjoy using Store Vacation Lite for WooCommerce, a [5-star rating](https:
 9. Adding the Store Vacation Notice Elementor widget to the page
 
 == Changelog ==
+= 1.9.8.1 =
+* Fixed: Incorrect documentation page URL.
+* Compatibility: Tested with WooCommerce 10.9.
+
 = 1.9.8 =
 * Tweak: Renamed the plugin to Store Vacation Lite for WooCommerce.
 * Tweak: Declared WooCommerce as a required plugin dependency.
